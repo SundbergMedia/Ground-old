@@ -4,21 +4,25 @@
   "version": "0.0.1",
   "private": "true",
   "dependencies": {
-    "body-parser": "*",
-    "express": "*",
-    "lodash": "*",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "chalk": "^1.1.3",
+    "express": "^4.14.0",
+    "lodash": "^4.16.4",
     "mongodb": "^2.2.10",
-    "pug": "*",
-    "redis": "*"
+    "mongoose": "^4.6.3",
+    "mysql": "^2.11.1",
+    "pug": "^0.1.0",
+    "redis": "^2.6.2"
   },
   "devDependencies": {
-    "grunt": "*",
-    "grunt-browser-sync": "*",
-    "grunt-contrib-concat": "*",
-    "grunt-contrib-stylus": "*",
-    "grunt-contrib-uglify": "*",
-    "grunt-contrib-watch": "*",
-    "jit-grunt": "*"
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0"
   },
   "scripts": {
     "start": "node app/app.js"
