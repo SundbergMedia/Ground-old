@@ -1,0 +1,2 @@
+# Ground 
+Ground is (or rather will be...) a starting point (rather than a complete framework) for use as a foundation for building modern web applications, utilizing modern technologies and good practises.
