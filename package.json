@@ -1,0 +1,26 @@
+{
+  "name": "Ground",
+  "description": "Foundation for modern web applications",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "lodash": "*",
+    "mongodb": "^2.2.10",
+    "pug": "*",
+    "redis": "*"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-browser-sync": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "jit-grunt": "*"
+  },
+  "scripts": {
+    "start": "node app/app.js"
+  }
+}
